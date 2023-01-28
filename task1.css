@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    min-width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5mb3JtYXRpb24lMjB0ZWNobm9sb2d5fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.img{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 50px;
+    border-radius: 15px;
+  
+    
+}
+nav{
+    display: flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav1{
+    flex: 1;
+    text-align: left;
+}
+.nav1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-style: italic;
+    
+}
+.nav1 ul li::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: #dcdaea;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav1 ul li:hover::after{
+    width: 100%;
+}
+.text{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.text h1{
+    font-size: 62Px;
+}
+.text h4{
+    margin: 10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.visit{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 12px 34px ;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.visit:hover{
+    border: 1px solid #192948db;
+    background: #395183db;
+    transition: 1s;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+}
+.Course{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+   
+}
+.row{
+    margin: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.typ{
+    color: white;
+   flex-basis: 31%;
+   background-color: #192948db;
+   border-radius: 10px;
+   margin-bottom: 5%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+   transition: 0.5s;
+   margin: 15px;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.typ:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+}
